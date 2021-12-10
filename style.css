@@ -7,7 +7,7 @@
 }
 
 .header {
-    height: 160px;
+    height: 200px;
     text-align: center;
     box-sizing: border-box;
     background-color:  lemonchiffon;
@@ -46,6 +46,9 @@
 
 
 
+
+
+
 a{
     text-decorations:none;
     color: #000066;
@@ -67,6 +70,51 @@ a{
     background-color:thistle;
 }
 
+.menu_wrap .dep1 > li{
+  display:inline-block;
+  width:150px;
+  vertical-align: top;
+  background:lemonchiffon;
+  text-align: center;
+  font-size:10px;
+}
+
+.menu_wrap .dep1 >li:hover >a {
+  background-attachment: #000 purple;
+  color:#FF6666;
+}
+
+.menu_wrap .dep1 >li:hover > .dep2 {
+  display:block;
+}
+
+.menu_wrap .dep1 >li > a {
+  display: block;
+  padding:10px 0;
+}
+
+.menu_wrap .dep2 {
+  display: none;
+  background:#CCFFCC;
+colormap
+
+}
+
+.menu_wrap .dep2 a {
+  display: block;
+  padding: 10px 0;
+}
+
+.menu_wrap .dep2 a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 
 body{
@@ -75,11 +123,14 @@ body{
 }
 
 
+
 * {margin:0;padding:0;box-sizing:border-box;}
 ul, li {list-style:none;}
 
+
+
 [name="slide"] {display:none;}
-.slidebox {max-width:1000px;width:100%; margin:0 auto;}
+.slidebox {max-width:1000px;width:85%; margin:0 auto;}
 .slidebox img {max-width:100%;}
 .slidebox .slidelist {
   white-space: nowrap;
@@ -181,5 +232,6 @@ label.right {
   98% {left:100%;}
   100% {left:0%;}
 }
+
 
 
