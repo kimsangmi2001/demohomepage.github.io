@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <title> Document</title>
+</head>   
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <a href="#">
+                <h1>DTB</h1>
+                <p>DONANATHEBANANA</p>
+            </a>    
+        </div>
+        <div class="header__gnb">
+            <ul>
+                <li><a href="ABOUT ME.html">ABOUT ME</a></li>   
+                <li><a href="WHAT I LEARNED">WHAT I LEARNED</a></li>    
+                <li><a href="MY FAVORITE">MY FAVORITE</a></li>   
+                <li><a href="SOCIETY CLUB">SOCIETY CLUB</a></li>   
+                <li><a href="DAILY NEWS">DAILY NEWS</a></li>   
+            </ul>                                                                                                                                                 
+        </div>
+    </header>
+
+    <div class="menu-bar">
+        <a href="#" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+    </div>
+       
+  
+
+</body>
+</html>
+       
+                               
+    
+    </div>        <div class="wrap">
+          <div class="intro_bg">
+            <div class="header">
+              <div class="searchArea">
+                <input type="search" placeholder="Search">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    
+
+    <div class="slidebox">
+        <input type="radio" name="slide-btn" id="slide01" checked>
+        <input type="radio" name="slide-btn" id="slide02" >
+        <input type="radio" name="slide-btn" id="slide03" >
+        <input type="radio" name="slide-btn" id="slide04" >
+        
+        <ul class="slidelist">
+            <li class ="slideitem">
+              <div>
+                  <label for="slide04" class="left"></label>             
+                  <label for="slide02" class="right"></label>
+                  <a><img src="10.jpg"></a>
+              </div>
+            </li>
+            <li class ="slideitem">
+              <div>
+                  <label for="slide01" class="left"></label>
+                  <label for="slide03" class="right"></label>
+                  <a><img src="11.jpg"></a>
+              </div>
+            </li>
+            <li class ="slideitem">
+              <div>
+                  <label for="slide02" class="left"></label>
+                  <label for="slide04" class="right"></label>
+                  <a><img src="17.jpg"></a>
+              </div>
+            </li>
+            <li class ="slideitem">
+              <div>
+                  <label for="slide03" class="left"></label>
+                  <label for="slide01" class="right"></label>
+                  <a><img src="18.jpg"></a>
+              </div>
+            </li>
+        </ul>  
+    </div>
+
+    
+
+                  
+
+        
+
+
+<div class="header">
+      <img class="logo">
+      <div class="nav">
+        <a> 메뉴1</a>  
+        <a> 메뉴2</a> 
+        <a> 메뉴3</a> 
+    </div>
+
+
+<div class="slider">
+  <div> <img> </div>
+  <div> <img> </div>
+  <div> <img> </div>
+  </div>
+
+  <div class="cardBox">
+    <div class="card">
+      <div> <img> </div>
+      <p> </p>
+    </div>
+    <div class="card"> </div>
+    <div class="card"> </div>
+  </div>
+
+
+
+
+</body>
+</html>
